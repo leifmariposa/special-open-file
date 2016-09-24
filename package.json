@@ -1,10 +1,9 @@
 {
   "name": "special-open-file",
   "main": "./lib/special-open-file",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Quickly open file from preconfigured location(s)",
-  "keywords": [
-  ],
+  "keywords": [],
   "repository": "https://github.com/leifmariposa/special-open-file",
   "license": "MIT",
   "engines": {
@@ -31,7 +30,9 @@
     },
     "fileTypes": {
       "type": "array",
-      "default": ["*"],
+      "default": [
+        "*"
+      ],
       "description": "Comma seperated list of file types that will be included.",
       "order": 2
     },
