@@ -1,0 +1,6 @@
+'menu': [
+  'label': 'File'
+  'submenu': [
+    { 'label': 'Special Open File', 'command': 'special-open-file:toggle' }
+  ]
+]
