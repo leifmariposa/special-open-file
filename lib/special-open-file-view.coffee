@@ -56,10 +56,6 @@ class SpecialOpenFileView extends FuzzyFinderView
   populate: ->
     @setItems(@paths) if @paths?
 
-    if atom.project.getPaths().length is 0
-      @setItems([])
-      return
-
     if @reloadPaths
       @reloadPaths = false
 
