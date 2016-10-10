@@ -1,7 +1,7 @@
 {
   "name": "special-open-file",
   "main": "./lib/special-open-file",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Quickly open file from preconfigured location(s)",
   "keywords": [],
   "repository": "https://github.com/leifmariposa/special-open-file",
